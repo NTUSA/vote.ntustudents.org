@@ -1,0 +1,23 @@
+[submodule "stat103-1"]
+	path = statistics/103-1
+	url = https://github.com/rschiang/ntu-vote-auth-stat.git
+
+[submodule "stat103-2"]
+	path = statistics/103-2
+	url = https://github.com/rschiang/ntu-vote-auth-stat.git
+
+[submodule "stat104-1"]
+	path = statistics/104-1
+	url = https://github.com/rschiang/ntu-vote-auth-stat.git
+
+[submodule "stat105-1"]
+	path = statistics/105-1
+	url = https://github.com/rschiang/ntu-vote-auth-stat.git
+
+[submodule "stat105-2"]
+	path = statistics/105-2
+	url = https://github.com/rschiang/ntu-vote-auth-stat.git
+
+[submodule "stat106-1"]
+	path = statistics/106-1
+	url = https://github.com/rschiang/ntu-vote-auth-stat.git
