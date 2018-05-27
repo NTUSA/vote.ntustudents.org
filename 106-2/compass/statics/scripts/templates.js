@@ -14,7 +14,7 @@ const displayCandidateTemplate = (rank, score, candidate) => {
     '，公報連結<a target="_blank" href="' + candidate.link +
     '">在此</a>。</p>' +
     '<h3>這位候選人認為...</h3>' +
-    '<p>' + n12br(candidate.description) + '</p>' +
+    '<p>' + nl2br(candidate.description) + '</p>' +
     '</section>'
   )
 }
