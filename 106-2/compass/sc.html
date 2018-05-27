@@ -26,6 +26,8 @@
   <div class="page-section" id="result">
     <h1>測驗結果</h1>
     <div id="result-render"></div>
+    <h2><span>以下候選人未作答</span></h2>
+    <ul id="no-answer-render"></ul>
   </div>
   <footer class="page-section color-reverse">
     <h3>國立臺灣大學學生會選舉罷免執行委員會</h3>
@@ -38,6 +40,7 @@
   <script>
     const path_to_test = 'assets/test-1062sc.md';
     const path_to_result = 'assets/result-1062sc.csv';
+    const path_to_no_answer = 'assets/no-answer-1062sc.csv';
   </script>
   <script src="statics/scripts/polyfill.min.js"></script>
   <script src="statics/scripts/fetch.min.js"></script>
@@ -74,5 +77,12 @@
       .then(text => Papa.parse(text, {header: true}))
       .then(data => processCandidate(data.data))
       .then(data => initializeSubmit(data));
+
+    /* Fetch no answer setting file and starting rendering */
+    fetch(path_to_no_answer)
+      .then(response => response.text())
+      .then(text => Papa.parse(text, {header: true}))
+      .then(data => processCandidate(data.data))
+      .then(data => initializeDisplayNoAnswer(data));
   </script>
 </body>
