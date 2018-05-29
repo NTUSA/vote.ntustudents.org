@@ -4,7 +4,7 @@
 
 `links:outline`
 
-- 學生代表大會學生會長 投票輔助系統：https://vote.ntustudents.org/106-2/compass/sc.html
+- 學生代表大會學生代表 投票輔助系統：https://vote.ntustudents.org/106-2/compass/sc.html
 - 第二份選舉公告：https://goo.gl/bstHNw
 - 候選人政見（雲端PDF版）：https://goo.gl/rXDyWS
 - 候選人政見（網頁好讀版）：https://goo.gl/G6EBWE
